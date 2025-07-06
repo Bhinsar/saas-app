@@ -56,7 +56,7 @@ const CompanionsList = ({title, companions, classNames}: CompanionsListProps) =>
                                 </Link>
                             </TableCell>
                             <TableCell>
-                                <div className={"subject-badge w-fit mx-md:hidden"}>{companion.subject}</div>
+                                <div className={"subject-badge w-fit max-md:hidden"}>{companion.subject}</div>
                                 <div className={"flex items-center justify-center rounded-lg w-fit p-2 md:hidden"}
                                      style={{backgroundColor: getSubjectColor(companion.subject)}}>
                                     <Image
